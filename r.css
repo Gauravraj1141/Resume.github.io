@@ -4,9 +4,10 @@
 .root {
     border: 1px solid gray;
     background-color: rgb(240, 240, 209);
-    margin: auto;
+    margin: 100px auto;
     width: 80rem;
     font-family: 'Kameron', serif;
+    box-shadow: 5px 9px 12px 12px rgb(81, 80, 80);
 }
 
 .resume-header-name{
@@ -55,11 +56,12 @@
 
 .blue {
     color: blue;
+    padding-bottom: 32px;
 }
 
 .skills {
     text-align: left;
-    margin-left: 12px;
+    margin-left: 52px;
     font-size: 22px;
 
 
@@ -82,13 +84,12 @@
 }
 
 
-
-.projects {
-    margin-left: 12px;
-}
-
 .project-info {
     margin-left: 22px;
+}
+
+.education{
+    margin-left: 52px;
 }
 
 .education-content {
@@ -128,4 +129,13 @@
     padding: 10px;
     text-align: center;
    
+}
+
+.certifications,.otherperks,.education,.projects{
+    margin-left: 52px;
+}
+
+.perks-section{
+    margin-left: 5px;
+    font-size: 25px;
 }
