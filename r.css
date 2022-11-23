@@ -1,40 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&family=Geo&family=Graduate&family=Kameron&display=swap');
+
+
 .root {
     border: 1px solid gray;
     background-color: rgb(240, 240, 209);
     margin: auto;
-    width: 60rem;
+    width: 80rem;
+    font-family: 'Kameron', serif;
 }
 
 .resume-header-name{
-    font-size: 35px;
+    font-size: 40px;
+    
 }
 .resume-section-text {
     text-align: left;
-    margin-left: 12px;
+    margin-left: 137px;
     width: 500px;
 
 }
 
 .resume-section-meta {
-    margin: 22px;
+    margin-left: 32px;
     border-left: 2px solid green;
-    padding: 12px;
+    padding: 22px;
 }
 
 .resume-section-meta-row {
     font-size: 22px;
     text-align: left;
-    margin: 3px;
+    
 }
 
 
 .resume-header-info {
-    font-size: 17px;
+    font-size: 20px;
+    
 }
 
 
 .resume-header {
     display: flex;
+    margin-top: 25px;
+    
 }
 
 .red {
@@ -86,16 +94,17 @@
 .education-content {
     margin-left: 32px;
     font-size: 23px;
+    display: flex;
 }
 
 .institute {
     text-indent: 3px;
-    font-weight: bold;
+    
 }
 
 .study-duration {
     font-size: 24px;
-    text-indent: 13px;
+    text-align: center;
 }
 
 .studyname {
@@ -111,3 +120,12 @@
 }
 
 .project-info a{color:blue;}
+
+.institute-name{
+    display: inline-block;
+    border-radius: 12px;
+    background-color: rgb(224, 255, 245);
+    padding: 10px;
+    text-align: center;
+   
+}
