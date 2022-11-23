@@ -1,0 +1,113 @@
+.root {
+    border: 1px solid gray;
+    background-color: rgb(240, 240, 209);
+    margin: auto;
+    width: 60rem;
+}
+
+.resume-header-name{
+    font-size: 35px;
+}
+.resume-section-text {
+    text-align: left;
+    margin-left: 12px;
+    width: 500px;
+
+}
+
+.resume-section-meta {
+    margin: 22px;
+    border-left: 2px solid green;
+    padding: 12px;
+}
+
+.resume-section-meta-row {
+    font-size: 22px;
+    text-align: left;
+    margin: 3px;
+}
+
+
+.resume-header-info {
+    font-size: 17px;
+}
+
+
+.resume-header {
+    display: flex;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.skills {
+    text-align: left;
+    margin-left: 12px;
+    font-size: 22px;
+
+
+}
+
+.skill-names {
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.resume-section-content {
+    font-size: 22px;
+}
+
+.resume-section-title {
+    font-size: 33px;
+    margin-left: 12px;
+    text-decoration: underline;
+
+}
+
+
+
+.projects {
+    margin-left: 12px;
+}
+
+.project-info {
+    margin-left: 22px;
+}
+
+.education-content {
+    margin-left: 32px;
+    font-size: 23px;
+}
+
+.institute {
+    text-indent: 3px;
+    font-weight: bold;
+}
+
+.study-duration {
+    font-size: 24px;
+    text-indent: 13px;
+}
+
+.studyname {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 29px;
+
+}
+
+.about-course {
+    font: italic;
+    font-weight: bold;
+}
+
+.project-info a{color:blue;}
