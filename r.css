@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&family=Geo&family=Graduate&family=Kameron&display=swap');
 
 
+
 .root {
     border: 1px solid gray;
     background-color: rgb(240, 240, 209);
@@ -60,7 +61,7 @@
     padding-bottom: 32px;
 }
 
-.skills {
+.skills,.experience {
     text-align: left;
     margin-left: 52px;
     font-size: 22px;
