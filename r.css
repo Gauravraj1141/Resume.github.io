@@ -5,7 +5,8 @@
 .root {
     border: 1px solid gray;
     background-color: rgb(240, 240, 209);
-    margin: 100px auto;
+    margin: 10px auto;
+    padding: 0px;
     width: 65rem;
     height: 100%;
     font-family: 'Kameron', serif;
@@ -18,7 +19,7 @@
 }
 .resume-section-text {
     text-align: left;
-    margin-left: 137px;
+    margin-left: 100px;
     width: 500px;
 
 }
@@ -26,11 +27,12 @@
 .resume-section-meta {
     margin-left: 32px;
     border-left: 2px solid green;
-    padding: 22px;
+    padding: 20px;
 }
 
 .resume-section-meta-row {
     font-size: 22px;
+    margin: 10px;
     text-align: left;
     
 }
@@ -44,7 +46,7 @@
 
 .resume-header {
     display: flex;
-    margin-top: 25px;
+    margin-top: 13px;
     
 }
 
@@ -64,7 +66,7 @@
 .skills,.experience {
     text-align: left;
     margin-left: 52px;
-    font-size: 22px;
+    font-size: 20px;
 
 
 }
@@ -79,7 +81,7 @@
 }
 
 .resume-section-title {
-    font-size: 33px;
+    font-size: 30px;
     margin-left: 12px;
     text-decoration: underline;
 
@@ -87,7 +89,8 @@
 
 
 .project-info {
-    margin-left: 22px;
+    margin-left: 20px;
+    text-align: left;
 }
 
 .education{
@@ -141,3 +144,7 @@
     margin-left: 5px;
     font-size: 25px;
 }
+
+div {
+    border-radius: 10px;
+  }
